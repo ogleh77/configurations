@@ -35,3 +35,7 @@ services:
       MYSQL_PASSWORD: 12345
       volumes:
          - datadb:/var/lib/mysql/data
+
+volumes:
+  datadb
+  
